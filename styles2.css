@@ -1,0 +1,163 @@
+body{
+    direction: rtl;
+    font-family: system-ui;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+}
+nav li, form {
+    display: inline;
+}
+header, footer nav ul {
+    direction: rtl;
+    text-align: right;
+    word-spacing: 2em;
+}
+
+main nav ul {
+    padding: 0%;
+    text-align: left;
+    word-spacing: 2em;
+}
+input {
+    height: 2em;
+    padding: 0.5em;
+    border: 1px solid #d5e0e9;
+    border-radius: 0.5;
+}
+a {
+    text-decoration: none;
+    color: rgb(9,159,209);
+    margin: 0,5em;
+}
+a:hover {
+    color: rgb(130, 216, 245);
+}
+table{
+    width:100%;
+    margin: 0.5em;
+}
+thead td, thead th {
+    border-width: 2px;
+    font-weight: normal;
+}
+td, th {
+    text-align: left;
+    border-bottom: 1px solid #abb8c2;
+    padding: 0.5em;
+}
+@media screen and (max-width: 767px) {
+    main nav li {display: block;}
+}
+@media screen and (max-width: 6000px) {
+    header nav li form {display:block;}
+}
+tfoot input {
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+
+
+.sortbutton { 
+	width: 100%; 
+	height: 100%; 
+	border: none; 
+	background-color: transparent; 
+	font: inherit; 
+	color: inherit; 
+	text-align: inherit; 
+	padding: 0; 
+	cursor: pointer; 
+} 
+.sortierbar thead th span.visually-hidden { 
+	position: absolute !important; 
+	clip: rect(1px, 1px, 1px, 1px) !important; 
+	padding: 0 !important; 
+	border: 0 !important; 
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden !important; 
+	white-space: nowrap !important; 
+} 
+.sortierbar caption span { 
+	font-weight: normal; 
+	font-size: .8em; 
+}
+.sortbutton svg { 
+	margin-left: .2em; height: .7em; 
+} 
+.sortbutton.sortedasc svg path:last-of-type { 
+	fill: currentColor !important; 
+} 
+.sortbutton.sorteddesc svg path:first-of-type { 
+	fill: currentColor!important; 
+}
+.sortbutton.sortedasc > span.visually-hidden:first-of-type { 
+	display: none;
+} 
+.sortbutton.sorteddesc > span.visually-hidden:last-of-type { 
+	display: none;
+} 
+.sortbutton.unsorted > span.visually-hidden:last-of-type { 
+	display: none;
+}
+
+
+
+
+
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  #myInput1 {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+
+  .button {
+    word-spacing: 0;
+    background-color:rgb(242, 242, 242);
+    border: 2px solid rgb(9,159,209);
+    border-radius: 5px;
+    color: rgb(9,159,209);
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px;
+    cursor: pointer;
+    }
+
+    .button2 {
+        word-spacing: 0;
+        background-color:rgb(242, 242, 242);
+        border: 2px solid rgb(9,159,209);
+        border-radius: 5px;
+        color: rgb(9,159,209);
+        box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 3px;
+        cursor: pointer;
+        }
